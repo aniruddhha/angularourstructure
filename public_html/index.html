@@ -1,0 +1,21 @@
+<html ng-app="angularApp">
+    <head>
+        <title>My First Angular</title>
+        <script src="libs/angular.min.js"></script>
+        <script src="libs/angular-route.min.js"></script>
+
+        <script src="controller/controllercity.js"></script>
+        <script src="controller/controllerdoctor.js"></script>
+        <script src="controller/controllertable.js"></script>
+
+        <script src="factory/factorydoctor.js"></script>
+
+        <script src="config/appconfig.js"></script>
+    </head>
+    <body>
+        <div>
+            <div ng-view="">
+            </div>
+        </div>
+    </body>
+</html>
