@@ -29,7 +29,7 @@ function FactoryDoctor($http) {
                 url: "",
                 headers: {
                     "Content-Type": "application/json",
-                    "Accept": undefined
+                    "Accept": undefined // if you dont know what type of response is 
                 },
                 data: studentNew
             };
